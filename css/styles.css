@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{margin: 0; box-sizing: border-box; padding: 0;}
+
+html{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.3rem;
+    background-color: #fffbff;
+    overflow-x: hidden;
+}
+
+nav ul {display: flex;}
+
+header{
+    height: 80px;
+    padding: 20px;
+    color: #000;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #0e1428;
+    position: fixed;
+    z-index: 1;
+}
+
+.direction-links a {
+    text-decoration: none;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.apresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    height: 100vh;
+    background-color: #2f364a;
+}
+
+.projects button{
+    margin: 70px;
+    width: 130px;
+}
+
+footer {
+    height: 50vh;
+    width: 100%;
+    background-color: #2f364a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.contact-links a {
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 30px; 
+    transition: 0.3s ease;
+}
+
+.contact-links a:hover{
+    margin-bottom: 10px;
+    color: #fffbfa;
+}
+  
+.contact-links .row {
+    display: flex;
+    align-items: center;
+}
+
+.projects button a{
+    color: #fff;
+}
+
+.container:is(footer,.apresentation){
+    width: 100%;
+}
+
+@media only screen and (max-width:500px){
+    h1{font-size: 1rem;};
+    body{overflow-x: hidden;}
+    .row{flex-direction: column;}
+}
+
+.vertical-layout {
+    align-items: center;
+}
