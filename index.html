@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portifolio</title>
+  <!--BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+  <!--LOCAL CSS-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      
+    </nav>
+
+    <ul class="d-flex list-inline">
+        <li class="direction-links" style="list-style-type: none;"><a style="color: #fff;"
+            href="#apresentation">About</a></li>
+        <li class="direction-links" style="list-style-type: none;"><a style="color: #fff;" 
+          href="#projects">Work</a>
+        </li>
+        <li class="direction-links" style="list-style-type: none;"><a style="color: #fff;" 
+          href="#footer">Contact</a>
+        </li>
+      </ul>
+  </header>
+
+  <main>
+    <section class="apresentation" id="apresentation">
+      <h1 class="text-center display-1">Hey I'm Eric</h1><br>
+      <span class="text-center" style="color: #fffbff;">A Full-Stack Developer</span>
+    </section>
+
+    <div class="container">
+      <section class="projects" id="projects" style="padding: 10px;">
+        <h2 class="text-center" style="margin: 70px;">These are some my projects</h2>
+
+        <div class="row">
+          <div class="card col-md" style="width: 18rem; margin-right:5px; padding: 10px;">
+            <img class="card-img-top" src="images/weather-app.png" alt="Weather App Made With JS">
+            <div class="card-body">
+              <h5 class="card-title">Weather App</h5>
+              <p class="card-text">A weather forecast app made using JS, HTML5, CSS3. The Open Weather API was used
+                for the temperature query.<a href="https://openweathermap.org/"
+                  style="text-decoration: none; color: #000;">Open Weather</a>
+              </p>
+              <a href="https://github.com/lmaurici0/Weather-App" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+
+          <div class="card col-md" style="width: 18rem; margin-right:5px; padding: 10px;">
+            <img class="card-img-top" src="images/calculator-Js.png" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript Calculator</h5>
+              <p class="card-text">Simple calcutar made with JS, HTML and CSS</p>
+              <a href="https://github.com/lmaurici0/Calculator-JS" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+
+          <div class="card col-md" style="width: 18rem; margin-right:5px; padding: 10px;">
+            <img class="card-img-top" src="images/pokedex.png" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Pokédex Pokémon</h5>
+              <p class="card-text">Pokédex made with Python, now have 10 pokémons for you browse, see their habilities
+                and status.
+              </p>
+              <a href="https://github.com/lmaurici0/Pokedex" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+
+          <div class="card col-md" style="width: 18rem; margin-right:5px; padding: 10px;">
+            <img class="card-img-top" src="images/space-invaders.png" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Space Invaders Remake</h5>
+              <p class="card-text">A remake from popular game 70's, Space Invaders. In this project i used Python and
+                librarys
+                like PIL and Tkinter.
+              </p>
+              <a href="https://github.com/lmaurici0/Weather-App" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-dark mx-auto">
+            <a href="https://github.com/lmaurici0" style="color: #fff; text-decoration: none;">Show All</a>
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="footer" class="container-fluid">
+    <p class="text-center" style="font-size: 1.9rem;">Let's Work Together</p>
+    <div class="row">
+      <div class="contact-links">
+        <div class="row">
+          <a id="profile-link" href="https://github.com/lmaurici0" target="_blank" class="btn contact-details"><i
+              class="fab fa-github"></i> GitHub</a>
+
+          <a href="mailto:ericluismauricio@gmail.com" class="btn contact-details">
+            <i class="fas fa-at">
+            </i> Send a mail</a>
+
+          <a href="https://wa.me/5511983085255" class="btn contact-details">
+            <i class="fas fa-mobile-alt"></i> Call me</a>
+
+          <a href="https://www.linkedin.com/in/eric-luis-da-silva-mauricio-142624279" class="btn contact-details">
+            <i class="fab fa-linkedin"></i>Linkedin</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<!--BOOTSTRAP JS-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- LOCAL JS -->
+<script src="script.js"></script> 
+
+</html>
