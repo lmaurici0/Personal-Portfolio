@@ -89,11 +89,6 @@ footer {
 }
 
 @media only screen and (max-width:500px){
-    h1{font-size: 1rem;};
     body{overflow-x: hidden;}
     .row{flex-direction: column;}
-}
-
-.vertical-layout {
-    align-items: center;
 }
