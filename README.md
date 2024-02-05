@@ -5,12 +5,10 @@
 <p>I hope you enjoy me and my portfolio, currently, I'm open to work, see more info about this on my LinkedIn: <a href='www.linkedin.com/in/eric-luis-da-silva-mauricio-142624279'>Click Here</a></p>
 
 <h2>Technologies</h2>
-
-![Technology 1](https://github.com/lmaurici0/Personal-Portfolio/blob/main/assets/135241097/582590d2-31ed-4bf6-a846-a2131a945d5c.png)
-![Technology 2](https://github.com/lmaurici0/Personal-Portfolio/blob/main/assets/135241097/5df58a4b-e0e3-493b-8755-e20ca0c69c00.png)
-![Technology 3](https://github.com/lmaurici0/Personal-Portfolio/blob/main/assets/135241097/187a7026-e83b-417c-b0e4-bb80aa50e6bc.png)
-![Technology 4](https://github.com/lmaurici0/Personal-Portfolio/blob/main/assets/135241097/2eeb75e7-828a-4bca-a540-640a0b7b3edc.png)
-![Technology 5](https://github.com/lmaurici0/Personal-Portfolio/blob/main/assets/135241097/214c6fef-c9af-4fee-ac7f-37599105cfab.png)
+<img src='https://live.staticflickr.com/65535/53510244147_02176dbcb1_n.jpg' alt='html logo'>
+<img src='https://live.staticflickr.com/65535/53511570425_614f0b1af1.jpg' alt='css logo'>
+<img src='https://live.staticflickr.com/65535/53510244707_9846df22b9_n.jpg' alt='js logo'>
+<img src='https://live.staticflickr.com/65535/53510244412_650a38592c_n.jpg' alt='bootstrap logo'>
 
 <h2>Acknowledgments</h2>
 <p>Thank you very much for reading so far, I already love you.</p>
