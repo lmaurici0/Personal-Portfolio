@@ -1,32 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
 
-*{margin: 0; box-sizing: border-box; padding: 0;}
-
-html{
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
-body{
-    font-family: 'Montserrat',sans-serif;
-    font-size: 1.3rem;
-    background-color: #fffbff;
-    overflow-x: hidden;
+html {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-nav ul {display: flex;}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  background-color: #fffbff;
+  overflow-x: hidden;
+}
 
-header{
-    height: 80px;
-    padding: 20px;
-    color: #000;
-    width: 100%;
-    justify-content: space-around;
-    background-color: #0e1428;
-    position: fixed;
-    z-index: 1;
+nav ul {
+  display: flex;
+}
+
+header {
+  height: 80px;
+  padding: 20px;
+  color: #000;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #0e1428;
+  position: fixed;
+  z-index: 1;
 }
 
 .direction-links a {
@@ -35,60 +41,163 @@ header{
     transition: 0.5s;
 }
 
-.apresentation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: #fff;
-    height: 100vh;
-    background-color: #2f364a;
+.direction-links a:hover{
+    text-decoration: underline;
 }
 
-.projects button{
-    margin: 70px;
-    width: 130px;
+.apresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  height: 100vh;
+  background-color: #2f364a;
+}
+
+.projects button {
+  margin: 70px;
+  width: 190px;
+  padding: 10px;
+  transition: all 0.3s ease;
 }
 
 footer {
-    height: 50vh;
-    width: 100%;
-    background-color: #2f364a;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 50vh;
+  width: 100%;
+  background-color: #0e1428;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-  
+
+i{margin-right: 10px;}
+
 .contact-links a {
-    color: #fff;
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 30px; 
-    transition: 0.3s ease;
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 30px;
+  transition: 0.3s ease;
+  font-weight: 400;
 }
 
-.contact-links a:hover{
-    margin-bottom: 10px;
-    color: #fffbfa;
+.contact-links a:hover {
+  margin-bottom: 10px;
+  color: #fffbfa;
 }
-  
+
 .contact-links .row {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.projects button a{
-    color: #fff;
+.projects button a {
+  color: #fff;
 }
 
-.container:is(footer,.apresentation){
-    width: 100%;
+.container:is(footer, .apresentation) {
+  width: 100%;
 }
 
-@media only screen and (max-width:500px){
-    body{overflow-x: hidden;}
-    .row{flex-direction: column;}
+.myself {
+  background: rgb(47, 54, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 54, 74, 1) 11%,
+    rgba(14, 20, 40, 1) 66%
+  );
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card_apresentation {
+  display: flex;
+  color: #fff;
+  padding: 15px;
+  margin-top: 90px;
+}
+
+.skills_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.skills img:not(.node) {
+  width: 150px;
+  height: auto;
+}
+
+.node {
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.card_apresentation p,
+h3 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+.picture {
+  width: 200px;
+  border-radius: 3px;
+}
+
+.card {
+  margin: 50px;
+  height: 100vh;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.view {
+  background-color: #0e1428;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+footer p{font-size: 1.9rem;}
+
+@media only screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .picture {
+    margin-right: 20px;
+  }
+  .card{
+    height: auto;
+  }
+  .skills img:not(.node, .python) {
+    margin-bottom: 20px;
+  }
+  footer{
+    height: 75vh;    
+  }
+  footer p{
+    font-size: 1.5rem;
+    font-style: italic;
+  }
 }
