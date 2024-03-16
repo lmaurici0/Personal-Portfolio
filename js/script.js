@@ -5,20 +5,27 @@ $(document).ready(function () {
     var screenWidth = $(window).width();
     var $card = $(".card");
     var $h1 = $("h1");
+    var $abth1 = $(".aboutTitle");
+    var $card = $(".mainAbout");
+    var $about = $(".about");
+    var $divFlex = $(".flex");
+    var $messages = $(".messages");
+    var $small = $(".small");
 
     if (screenWidth < 600) {
-      $card.addClass(
-        "d-flex flex-column justify-content-center align-items-center"
-      );
-      $card.css("margin-top", "10px");
       $h1.removeClass("display-1");
       $h1.css("font-size", "5rem");
-      $picture = "</br>";
-    } else {
-      $card.removeClass(
-        "d-flex flex-column justify-content-center align-items-center"
-      );
+      $abth1.css("font-size", "1.5rem");
+      $card.addClass("d-block");
+      $about.css("width", "350px");
+      $divFlex.removeClass("d-flex");
+      $messages.css("marginLeft", "10px");
+      $messages.css("width","380px");
+      $small.css("width", "100%");
+    } 
+    else {
       $h1.addClass("display-1");
+      $divFlex.addClass("d-flex");
     }
   }
 
@@ -47,12 +54,12 @@ function lermais() {
     textoResumido.style.display = "block";
     textoCompleto.style.display = "none";
     button.textContent = "Ler Mais";
-    button.style.marginLeft = "130px";
+    button.style.marginLeft = "13px";
   } else {
     textoResumido.style.display = "none";
     textoCompleto.style.display = "block";
     button.textContent = "Ler Menos";
-    button.style.marginLeft = "300px";
+    button.style.marginLeft = "13px";
     button.style.width = "150px";
   }
 }
