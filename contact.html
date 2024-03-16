@@ -15,7 +15,7 @@
             justify-content: center;
             align-items: center;
             margin: 0 auto;
-            display: flex;
+            display: block;
         }
     </style>
 </head>
@@ -44,48 +44,52 @@
         </nav>
     </header>
 
-    <div class="container">
-        <main class="d-flex justify-content-between">
-            <section class="card_introduce small">
-                <div class="photo"></div>
-                <div class="infos justify-content-center align-items-center">
-                    <h1>Eric Luis da Silva Mauricio</h1>
-                    <p>A full Stack Developer</p>
-                </div>
-            </section>
+    <div class="container contact">
+        <main class="mainContact">
+            <div class="justify-content-between flex">
+                <section class="card_introduce small">
+                    <div class="photo"></div>
+                    <div class="infos justify-content-center align-items-center">
+                        <h1 class="aboutTitle">Eric Luis da Silva Mauricio</h1>
+                        <p>A full Stack Developer</p>
+                    </div>
+                </section>
 
-            <section class="messages">
-                <div class="inputs">
-                    <input type="text" name="nameRecruiter" id="inputName" placeholder="Digite seu nome...">
-                </div>
+                <section class="messages">
+                    <div class="inputs">
+                        <input type="text" name="nameRecruiter" id="inputName" placeholder="Digite seu nome...">
+                    </div>
 
-                <textarea name="TextAre" id="TextArea" cols="60" rows="5"></textarea><br>
+                    <textarea name="TextAre" id="TextArea" cols="60" rows="5"></textarea><br>
 
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enviar</button>
+                    <button type="submit" id="enviarEmail" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enviar</button>
 
-                <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button><br> -->
-                                <h4 class="modal-title text-center">Enviando...</h4>
-                            </div>
-                            <div class="modal-body">
-                                <p>Olá, sua mensagem irá ser entregue com segurança, obrigado pela confiança.</p>
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button><br> -->
+                                    <h4 class="modal-title text-center">Enviando...</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Olá, sua mensagem irá ser entregue com segurança, obrigado pela confiança.</p>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </main>
 
     </div>
 
-
 </body>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
+<script src="js/script.js"></script>
 </html>
