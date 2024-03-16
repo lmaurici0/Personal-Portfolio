@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Luis - Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        main {
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="d-flex list-inline">
+                <li class="direction-links " style="list-style-type: none;"><a style="color: #fff;"
+                        href="index.html">Home</a>
+                </li>
+
+                <li class="direction-links" style="list-style-type: none;">
+                    <a style="color: #fff;" href="index.html">Projects</a>
+                </li>
+
+                <li class="direction-links" style="list-style-type: none;">
+                    <a style="color: #fff;" href="about.html">About Me</a>
+                </li>
+
+                <li class="direction-links ativ" style="list-style-type: none;">
+                    <a style="color: #fff;" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main class="d-flex justify-content-between">
+            <section class="card_introduce small">
+                <div class="photo"></div>
+                <div class="infos justify-content-center align-items-center">
+                    <h1>Eric Luis da Silva Mauricio</h1>
+                    <p>A full Stack Developer</p>
+                </div>
+            </section>
+
+            <section class="messages">
+                <div class="inputs">
+                    <input type="text" name="nameRecruiter" id="inputName" placeholder="Digite seu nome...">
+                </div>
+
+                <textarea name="TextAre" id="TextArea" cols="60" rows="5"></textarea><br>
+
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enviar</button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button><br> -->
+                                <h4 class="modal-title text-center">Enviando...</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Olá, sua mensagem irá ser entregue com segurança, obrigado pela confiança.</p>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</html>
