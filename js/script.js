@@ -20,10 +20,9 @@ $(document).ready(function () {
       $about.css("width", "350px");
       $divFlex.removeClass("d-flex");
       $messages.css("marginLeft", "10px");
-      $messages.css("width","380px");
+      $messages.css("width", "100%");
       $small.css("width", "100%");
-    } 
-    else {
+    } else {
       $h1.addClass("display-1");
       $divFlex.addClass("d-flex");
     }
