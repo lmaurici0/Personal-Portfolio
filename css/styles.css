@@ -283,12 +283,12 @@ footer img {
   border-radius: 3px;
   height: 40px;
   display: flex;
-  margin: -30px 0; 
+  margin: -30px 0;
   justify-content: center;
   align-items: center;
 }
 
-.lermais{
+.lermais {
   color: #000;
   text-align: center;
   font-weight: 700;
@@ -378,7 +378,7 @@ textarea {
   font-style: normal;
 }
 
-.modal-content{
+.modal-content {
   margin-top: -130%;
 }
 
@@ -401,7 +401,7 @@ textarea {
   vertical-align: middle;
 }
 
-.profile_pic{
+.profile_pic {
   width: 200px;
   height: auto;
   border-radius: 30px;
@@ -440,5 +440,19 @@ textarea {
   }
   h2:not(.initalh2) {
     margin-top: 90px;
+  }
+  .direction-links:not(.ativ) a {
+    filter: none;
+  }
+  .navbar-toggler {
+    display: block !important;
+  }
+
+  .navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar-collapse.show {
+    display: block !important;
   }
 }
