@@ -409,9 +409,20 @@ textarea {
   display: flex;
 }
 
+.navbar-brand {
+  display: none; 
+}
+
+.navbar-collapse{
+  z-index: 2;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
+  }
+  .navbar-brand {
+    display: block; 
   }
   .card {
     height: auto;
@@ -454,5 +465,8 @@ textarea {
 
   .navbar-collapse.show {
     display: block !important;
+  }
+  .navbar-brand{
+    display: flex;
   }
 }
