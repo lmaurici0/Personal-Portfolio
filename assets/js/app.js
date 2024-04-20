@@ -7,4 +7,4 @@ function changeSkill() {
     index = (index + 1) % skilss.length;
 }
 
-setInterval(changeSkill, 5000);
+setInterval(changeSkill, 3000);
