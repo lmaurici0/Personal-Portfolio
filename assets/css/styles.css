@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moulpali&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root{
+  --dark-blue: #09243a;
+  --bg-color: #333;
+  --section-color: #222;
+  --white: #eee;
+}
+
+html {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+/* Index Html */
+nav ul {
+  display: flex;
+}
+
+header {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.1px);
+  -webkit-backdrop-filter: blur(6.1px);
+  height: 15vh;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 1;
+}
+
+.direction-links a {
+  text-decoration: none;
+  color: var(--dark-blue);
+  margin-right: 30px;
+  transition: 0.5s;
+  font-family: Poppins;
+}
+
+.direction-links a:hover {
+  color: #0061c0;
+}
+
+.card{
+  width: 100%;
+  height: auto;
+  background-color: var(--section-color);
+  margin: 140px 0 140px 0;
+  color: #fff;
+  border-radius: 0;
+  padding: 30px;
+}
+
+.card-body{display: flex;}
+
+.skill{color: #a00;}
+
+.introduce_text{
+  font-weight: 400 !important;
+}
+
+.profile_picture{
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: -10px auto;
+}
+ 
+span{
+  line-height: 50px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.about{
+  width: 100%;
+  height: auto;
+  padding: 60px;
+  color: var(--white);
+  background-color: #222;
+}
+
+.about p{
+  font-size: 18px;
+  line-height: 25px;
+  margin: 50px 0 30px 0;
+}
+
+h2{
+  font-size: 1.6rem;
+}
+
+.skills {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  columns: 2;
+}
+
+footer{
+  background-color: var(--bg-color);
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+h3{
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+input{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border-bottom: 3px solid #2196f3;
+}
+
+input::placeholder{
+  font-size: 1rem;
+  color: #fff;
+}
+
+button{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: var(--dark-blue); 
+  padding: 5px;
+  border: none;
+  color: #fff;
+}
+
+.copy{
+  color: #fff;
+  text-align: left;
+  font-size: 1rem;
+  margin-top: 80px;
+  background-color: #222;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+} 
+
+/* About Html */
+.proj{
+  margin-top: 140px;
+  background-color: #222;
+  text-align: center;
+  padding: 30px;
+}
+
+.cover_project{
+  margin: 30px auto 60px auto;
+  border-radius: 5px;
+  width: 400px;
+  height: 200px;
+}
+
+.github_button{
+  background-color: #111;
+  width: 40%;
+  transition: 0.3s;
+}
+
+.github_button:hover{
+  transform: scale(1.1);
+  width: 30%;
+}
+
+h4{
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+/* Media Query */
+@media screen and (max-width: 600px){
+  .direction-links a{
+    font-size: 1.1rem;
+  }
+  .card-body{
+    display: block;
+  }
+  .skills img{
+    margin: 10px;
+  }
+  .cover_project{
+    width: 100%;
+  }
+  .github_button{
+    width: 100%;
+  }
+}
