@@ -51,7 +51,7 @@ header {
 
 .direction-links a {
   text-decoration: none;
-  color: var(--dark-blue);
+  color: var(--white);
   margin-right: 30px;
   transition: 0.5s;
   font-family: Poppins;
@@ -207,7 +207,7 @@ h4{
 /* Media Query */
 @media screen and (max-width: 600px){
   .direction-links a{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .card-body{
     display: block;
