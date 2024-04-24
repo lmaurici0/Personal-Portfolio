@@ -5,6 +5,11 @@ function changeSkill() {
     const skill = `${skilss[index]}`;
     document.getElementById('spanDev').innerText = skill;
     index = (index + 1) % skilss.length;
-}
+}setInterval(changeSkill, 3000);
 
-setInterval(changeSkill, 3000);
+function sendMessage(){
+    let phone = "119830852555"
+    let message = document.getElementById('messageInput').value;
+    let url = 'https://api.whatsapp.com/send?phone=' + phone + '&text=' + encodeURIComponent(message);
+    window.open(url);
+}
