@@ -142,6 +142,7 @@ input{
   margin-bottom: 30px;
   background-color: transparent;
   border-bottom: 3px solid #2196f3;
+  color: #fff;
 }
 
 input::placeholder{
