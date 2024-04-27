@@ -8,7 +8,7 @@ function changeSkill() {
 }setInterval(changeSkill, 3000);
 
 function sendMessage(){
-    let phone = "55119830852555"
+    let phone = "55(11)9830852555"
     let message = document.getElementById('messageInput').value;
     let url = 'https://api.whatsapp.com/send?phone=' + phone + '&text=' + encodeURIComponent(message);
     window.open(url);
