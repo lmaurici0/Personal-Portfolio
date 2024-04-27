@@ -1,5 +1,6 @@
 
-# Personal Portifolio
+# Portifolio
 
-This is my portfolio for show my works and my skills for you, i made him using html, css, jquery and bootstrap. 
-I hope you enjoyed my work and my portfolio, thank you for reading this far. You can see it in <a href="https://eric-luis-portfolio.vercel.app/">this site</a>
+Esse é meu portifólio profissional, nele você poderá ver os meus conhecimentos na prática e conhecer um pouco mais sobre mim. 
+
+Att: Eric Luis.
