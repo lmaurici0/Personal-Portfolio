@@ -1,4 +1,4 @@
-import styles from '../../assets/css/Input.module.css'
+import styles from '../assets/css/Input.module.css'
 
 function Input(){
     return(
