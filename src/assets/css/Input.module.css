@@ -1,4 +1,4 @@
-input {
+.main_input {
   padding: 10px;
   border-radius: 5px;
   width: 500px;
@@ -15,10 +15,10 @@ input {
   color: #fff;
 }
 
-input::placeholder {
+.main_input::placeholder {
   color: #333;
 }
 
-input:focus {
+.main_input:focus {
   outline: none;
 }
