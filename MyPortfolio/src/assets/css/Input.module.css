@@ -1,0 +1,24 @@
+input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 500px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  border: none;
+  border-bottom: 3px solid #000;
+  background-color: transparent;
+  font-family: Poppins;
+  font-size: 1em;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #333;
+}
+
+input:focus {
+  outline: none;
+}

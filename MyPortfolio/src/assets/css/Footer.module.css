@@ -1,0 +1,27 @@
+footer {
+  margin-top: 100px;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.spanContact {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.icon {
+  font-size: 2em;
+  color: #fff;
+  margin: 10px 0 60px 30px;
+  cursor: pointer;
+}
+
+.others{
+  font-family: Poppins;
+  font-weight: 200;
+  font-size: 14px;
+  padding: 3em;
+  color: #ccc;
+}

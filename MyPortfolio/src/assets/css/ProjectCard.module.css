@@ -1,0 +1,31 @@
+.projectCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  height: auto;
+  margin: 16px;
+}
+
+.projectPhoto {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.projectTitle {
+  font-size: 1.5em;
+  margin: 0 0 8px;
+  font-weight: 300;
+}
+
+.projectDescription {
+  font-size: 1em;
+  color: #ddd;
+  font-family: Poppins;
+  font-weight: 300;
+}
