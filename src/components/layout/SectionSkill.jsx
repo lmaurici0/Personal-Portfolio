@@ -57,7 +57,6 @@ function SectionSkill() {
           <Card 
             logo={sqlServer} 
             className={styles.skill_pic} 
-            title="Microsoft SQL Server Logo"
           />
         </div>
 
@@ -69,16 +68,19 @@ function SectionSkill() {
                 logo={html} 
                 className={styles.skill_pic} 
                 title="HTML 5 Logo"
+    
             />
             <Card 
                 logo={css} 
                 className={styles.skill_pic} 
                 title="CSS 3 Logo"
+  
             />
             <Card 
                 logo={bootstrap} 
                 className={styles.skill_pic} 
                 title="Bootstrap 5 Logo"
+              
             />
           </div>
 
