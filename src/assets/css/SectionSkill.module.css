@@ -21,7 +21,6 @@ span {
 
 .frontend_skills {
   margin-top: 100px;
-  height: 100vh;
 }
 
 @media only screen and (max-width: 400px) {
@@ -33,9 +32,14 @@ span {
   span {
     font-size: 1.3rem;
   }
-  .skills_section{, .frontend_skills
+  .skills_section{
     flex-direction: column;
-    column-count: 1;
+    column-count: 6;
     overflow-y: hidden;
   }
+
+  .frontend_skills{
+    flex-direction: column;
+  }
+  
 }
