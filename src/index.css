@@ -1,11 +1,29 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
 }
 
-body{
-  background: linear-gradient(to right, #18073A 5%, #000);
+body {
+  background: linear-gradient(to right, #18073a 5%, #000);
+  transition: 10s;
 }
 
+body.light-mode {
+  background: linear-gradient(to right, #aaa 5%, #fff);
+}
+
+body.light-mode p,
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode span,
+body.light-mode li,
+body.light-mode button p {
+  color: #000;
+}
+
+body.light-mode footer span,
+body.light-mode .btn_text{
+  color: #000;
+}
