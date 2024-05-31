@@ -34,7 +34,6 @@ span {
     font-size: 1.3rem;
   }
   .skills_section, .frontend_skills {
-    flex-direction: column;
     display: block;
     overflow-y: hidden;
   }
