@@ -1,0 +1,15 @@
+.changeBg{
+    text-align: start;
+    background-color: #270d5c;
+    font-family: Poppins;
+    width: auto;
+    height: 3px;
+    color: #fff;
+    transition: 1s;
+    overflow-y: hidden;
+    margin-left: auto;
+}
+
+button:hover {
+    transform: scale(1);
+}
