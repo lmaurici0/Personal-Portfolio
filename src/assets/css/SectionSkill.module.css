@@ -33,16 +33,9 @@ span {
   span {
     font-size: 1.3rem;
   }
-  .skills_section{
-    flex-direction: column;
-    column-count: 6;
-    overflow-y: hidden;
-  }
-
-  .frontend_skills{
-    overflow-y: hidden;
+  .skills_section{, .frontend_skills
     flex-direction: column;
     column-count: 1;
-  } 
-  
+    overflow-y: hidden;
+  }
 }
