@@ -35,6 +35,7 @@ span {
   }
   .skills_section, .frontend_skills {
     flex-direction: column;
+    display: block;
     overflow-y: hidden;
   }
   
