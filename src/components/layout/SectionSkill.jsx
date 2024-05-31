@@ -63,7 +63,7 @@ function SectionSkill() {
             logo={sqlServer} 
             className={styles.skill_pic} 
             title="Microsoft SQL Server Logo"
-            text="SQL Server Database"
+            text="SQL Server"
           />
         </div>
 
