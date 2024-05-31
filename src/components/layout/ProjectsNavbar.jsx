@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "../../assets/css/ProjectsNavbar.module.css";
 import ProjectCard from "../layout/ProjectCard";
 import vault from '../../assets/img/vault.jpeg';
@@ -55,6 +55,23 @@ const projects = [
 
 function ProjectsNavbar() {
   const [selectedCategory, setSelectedCategory] = useState("Todos");
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  useEffect(() => {
+    if (isTransitioning) {
+      const timer = setTimeout(() => {
+        setIsTransitioning(false);
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [isTransitioning]);
+
+  const handleCategoryChange = (category) => {
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setSelectedCategory(category);
+    }, 100); 
+  };
 
   const filteredProjects = selectedCategory === "Todos"
     ? projects
@@ -65,16 +82,16 @@ function ProjectsNavbar() {
       <div className={styles.headerNavbar}>
         <nav>
           <ul>
-            <li onClick={() => setSelectedCategory("Todos")} className={selectedCategory === "Todos" ? styles.selected : ""}>Todos</li>
-            <li onClick={() => setSelectedCategory("Front-End")} className={selectedCategory === "Front-End" ? styles.selected : ""}>Front-End</li>
-            <li onClick={() => setSelectedCategory("Back-End")} className={selectedCategory === "Back-End" ? styles.selected : ""}>Back-End</li>
+            <li onClick={() => handleCategoryChange("Todos")} className={selectedCategory === "Todos" ? styles.selected : ""}>Todos</li>
+            <li onClick={() => handleCategoryChange("Front-End")} className={selectedCategory === "Front-End" ? styles.selected : ""}>Front-End</li>
+            <li onClick={() => handleCategoryChange("Back-End")} className={selectedCategory === "Back-End" ? styles.selected : ""}>Back-End</li>
           </ul>
         </nav>
       </div>
 
       <h2 className={styles.title_mobile}>Projetos</h2>
 
-      <div className={styles.Projects}>
+      <div className={`${styles.Projects} ${isTransitioning ? styles.exiting : styles.entering}`}>
         {filteredProjects.map((project, index) => (
           <ProjectCard
             key={index}
