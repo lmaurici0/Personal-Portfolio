@@ -64,7 +64,7 @@ li:not(.selected) {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .headerNavbar {
     display: none;
   }
