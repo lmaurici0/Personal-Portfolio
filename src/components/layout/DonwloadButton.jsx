@@ -4,7 +4,7 @@ import styles from "../../assets/css/Button.module.css";
 function DownloadButton() {
   const downloadResume = () => {
     const resumeLink =
-      "https://drive.usercontent.google.com/u/0/uc?id=1t_dNjkGXU8g7XC1J_eAwVy8V4lA4hKR7&export=download";
+      "https://drive.usercontent.google.com/u/0/uc?id=1y3F_dSc4kJUKUTViAov5d0MKGEmb75f7&export=download";
     window.open(resumeLink, "_blank");
   };
 
