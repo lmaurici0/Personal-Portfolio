@@ -10,11 +10,11 @@ function Footer() {
       <footer>
         <span className={styles.spanContact}>Podemos conversar por:</span>
         <div className={styles.social_media}>
-          <a href="https://www.instagram.com/lmaurici0">
+          <a href="https://www.instagram.com/lmaurici0" target="_blank">
             <FaInstagram className={styles.icon} title="Instagram" />
           </a>
 
-          <a href="https://www.linkedin.com/in/ericmaurici0">
+          <a href="https://www.linkedin.com/in/ericmaurici0" target="_blank">
             <FaLinkedin className={styles.icon} title="Linkedin" />
           </a>
 
@@ -22,7 +22,7 @@ function Footer() {
             <SiGmail className={styles.icon} title="Gmail" />
           </a>
 
-           <a href="https://github.com/lmaurici0">
+           <a href="https://github.com/lmaurici0" target="_blank">
             <FaGithub className={styles.icon} title="Github" />
           </a>
         </div>
