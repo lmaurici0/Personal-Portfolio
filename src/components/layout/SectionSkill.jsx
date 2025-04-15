@@ -4,7 +4,7 @@ import styles from "../../assets/css/SectionSkill.module.css";
 import Card from "../layout/Card";
 import mysql from "../../assets/img/backend_skills/MySQL.svg";
 import python from "../../assets/img/backend_skills/python.svg";
-import cpp from "../../assets/img/backend_skills/cpp.svg";
+import spring from "../../assets/img/backend_skills/spring.svg";
 import js from "../../assets/img/backend_skills/js.svg";
 import node from "../../assets/img/backend_skills/nodeJs.svg";
 import sqlServer from "../../assets/img/backend_skills/sqlServer.svg";
@@ -35,7 +35,7 @@ function SectionSkill() {
             title="JavaScript Logo"
           />
           <Card
-            logo={cpp} 
+            logo={spring} 
             className={styles.skill_pic} 
             title="C++ Logo"
           />

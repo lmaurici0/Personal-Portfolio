@@ -24,8 +24,8 @@ function Introduce() {
             </div>
 
             <p className={styles.introduce}>
-                Tenho 16 anos e curso desenvolvimento de sistemas na ETEC Professor Horácio Augusto 
-                da Silveira, atualmente estou no 4º semestre. Busco sempre evoluir meus conhecimentos e 
+                Tenho 17 anos e curso desenvolvimento de sistemas na ETEC Professor Horácio Augusto 
+                da Silveira, atualmente estou no 5º semestre. Busco sempre evoluir meus conhecimentos e 
                 aperfeiçoar as habilidades já existentes. Estou em busca da minha primeira vaga no mercado
                 de trabalho.
             </p>
