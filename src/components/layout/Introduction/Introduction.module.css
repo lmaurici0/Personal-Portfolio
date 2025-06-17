@@ -1,0 +1,74 @@
+section {
+  padding: 3em;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.textContainer {
+  text-align: center;
+  margin-right: 400px;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: Poppins;
+  color: #fff;
+  font-weight: 300;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: Poppins;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.profile_pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 3%;
+}
+
+.aboutMe {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  padding: 1.3rem;
+  width: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 5%;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 6%;
+}
+
+.skills img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.skills img {
+  width: 60px;
+  height: auto;
+}
+

@@ -1,0 +1,57 @@
+footer {
+  margin-top: 100px;
+  justify-content: space-between;
+  height: 45vh;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.spanContact {
+  font-size: 1.3rem;
+  font-family: Poppins;
+  color: #fff;
+  font-weight: 200;
+}
+
+.copy{
+  font-size: 1rem;
+  font-family: Poppins;
+  color: #fff;
+  font-weight: 200;
+}
+
+.icon {
+  font-size: 2.3rem;
+  color: #fff;
+  margin: 10px 0 60px 30px;
+  cursor: pointer;
+}
+
+.cv {
+  width: 350px;
+  height: 30px;
+  background-color: #1c1c1c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto 40px auto;
+  overflow-y: hidden;
+  transition: 0.4s;
+}
+
+.btn_text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.3em;
+  font-weight: 200;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,22 +1,12 @@
 import React from 'react'
-
-import Introduce from '../layout/Introduce'
-import ProjectsNavbar from '../layout/ProjectsNavbar'
-import SectionSkill from '../layout/SectionSkill'
-import Footer from '../layout/Footer'
-import Header from '../layout/Header'
-
-
+import Footer from '../layout/Footer/Footer'
+import Introduction from '../layout/Introduction/Introduction'
 
 function Home(){
     return(
-        <>
-            <Header />
-        
+        <>        
             <main>
-                <Introduce />
-                <SectionSkill /> 
-                <ProjectsNavbar />
+                <Introduction />
             </main>
 
             <Footer />
