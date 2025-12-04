@@ -22,7 +22,7 @@ function Introduction() {
         </div>
 
         <div className={styles.aboutMe}>
-          <p>Java and React JS developer with 2 years of learning experience</p>
+          <p>Back-End developer.</p>
         </div>
 
         <div className={styles.skills}>
