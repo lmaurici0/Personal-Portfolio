@@ -23,7 +23,7 @@ function Footer() {
         </div>
 
         <a
-          href="/cv.pdf"
+          href="/cv_eric_Mauricio.pdf"
           download
           className={styles.cv}
         >
@@ -31,7 +31,7 @@ function Footer() {
         </a>
 
         <p className={styles.copy}>
-          Todos os direitos reservados à Eric Luis da Silva Mauricio - &copy; 2024
+          Todos os direitos reservados à Eric Luis da Silva Mauricio - &copy; 2025
         </p>
       </footer>
     </>
